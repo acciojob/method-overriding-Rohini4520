@@ -7,6 +7,7 @@ class A {
 
 }
 class B extends A{
+    @Override
     String meth(){
         return "Invoking method from class A";
     }
